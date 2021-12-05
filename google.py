@@ -9,6 +9,7 @@ warnings.filterwarnings('ignore')
 import itertools
 import numpy as np
 import pandas as pd
+from scipy import stats
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
