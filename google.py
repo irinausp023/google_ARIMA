@@ -21,7 +21,7 @@ from sklearn.metrics import mean_squared_error
 # In[19]:
 
 
-df = pd.read_csv('C:\\Users\\irina\\Desktop\\Kaggle\\google\\GOOG.csv', index_col=['Date'], parse_dates=['Date'])
+df = pd.read_csv('GOOG.csv', index_col=['Date'], parse_dates=['Date'])
 
 
 # In[20]:
